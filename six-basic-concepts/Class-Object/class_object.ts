@@ -1,3 +1,8 @@
+//CLASS:
+// A class is a blueprint for creating objects (instances) that share common properties and behaviors. 
+//It serves as a template or a prototype from which objects are created.A class encapsulates data for the object and 
+//methods to operate on that data.It provides a way to structure and organize code in a modular and reusable manner.
+
 // Define a task class with id, title, due date & completed(boolean) properties
 
 class Task {
@@ -34,6 +39,16 @@ class Task {
     this.completed = false;
   }
 }
+
+//OBJECTS:
+//It is a basic unit of Object-Oriented Programming and represents the real-life entities.
+// An Object is an instance of a Class.When a class is defined,
+// no memory is allocated but when it is instantiated(i.e.an object is created) memory is allocated.
+//An object has an identity, state, and behavior.Each object contains data and code to manipulate the data.
+//Objects can interact without having to know details of each other’s data or code,
+//it is sufficient to know the type of message accepted and type of response returned by the objects.
+
+
 // Now we can create new instances of the Task class using an object as a parameter
 // First instance
 const task1 = new Task({
